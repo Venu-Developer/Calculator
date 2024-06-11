@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(24, 24, 74);
+}
+
+input{
+    width: 234px;
+    height:35px;
+    font-size:25px;
+    display:flex;
+    background-color: rgb(58, 47, 83);
+}
+.grid{
+    width: 300px;
+    border:1px solid rgb(20, 210, 197);
+    position: relative;
+    margin: auto;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow:rgb(29, 224, 242) 2px 2px 2px 2px;
+    background-color: rgb(24, 24, 74);
+}
+.dispaly{
+    border: 1px solid rgb(222, 34, 175);
+    height:80px;
+    border-radius: 10px;
+    margin:20px;
+    box-shadow:1px 2px 3px rgb(222, 34, 175);
+}
+.output{
+    color: aliceblue;
+    margin:10px;
+    border:1px solid rgb(29, 216, 216);
+    border-radius: 4px;
+    margin-top:23px;
+    padding: 2px;
+    box-shadow: rgb(29, 224, 242) 1px 0px 1px 0.5px;
+}
+.button{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    text-align: center;
+    margin: 20px;
+
+}
+button{
+    width: 50px;
+    border: 1px solid rgb(37, 192, 231);
+    border-radius:50%;
+    justify-content:center;
+    padding: 5px;
+    margin:5px;
+    color: aliceblue;
+    box-shadow: 0px 1px 0px rgb(16, 183, 208);
+    background-color:rgb(24, 24, 74);
+
+}
+.box-pluse{
+    width: 50px;
+    box-shadow:none;
+    border:none;
+    border:1px solid yellow;
+    box-shadow:yellow 1px 0px 1px;
+    grid-row:span 2;
+    font-size: 25px;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom:4px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.box-AC{
+    border: none;
+    box-shadow: none;
+    border: 1px solid rgb(160, 61, 7);
+    box-shadow: rgb(233, 74, 11) 1px 0.5px 1px 1px;
+}
+button:hover{
+    background-color:rgb(41, 34, 93)
+}
